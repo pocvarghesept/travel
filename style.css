@@ -1,0 +1,107 @@
+*{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    width: 100%;
+}
+.navHead{
+    font-size: 30px;
+    font-weight: 500;
+}
+.navLinks{
+    display: flex;
+}
+.menuLinks{
+    list-style: none;
+    padding: 0px 10px;
+}
+.links{
+    text-decoration: none;
+    font-weight: 400;
+}
+.navButton{
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(229, 229, 2);
+    border-radius: 10px;
+    font-weight: 500;
+}
+/* hero section */
+.heroSection{
+    position: relative;
+}
+.heroText{
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    inset-inline-start: 25%;
+    justify-content: flex-end;
+    align-items: center;
+}
+.hHead{
+    background-color: transparent;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 5px 0px;
+}
+.hPara{
+    background-color: transparent;
+    font-size: 24px;
+    padding: 5px 0px;
+}
+.hButton{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 9px 14px;
+    margin-top: 6px;
+}
+/* footer */
+.footer{
+    display: flex;
+    background-color: rgb(54, 54, 54);
+    color: rgb(161, 160, 160);
+    width: 100%;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.company{
+    background-color: rgb(54, 54, 54);
+}
+.companynav{
+    background-color: rgb(54, 54, 54);
+}
+.companyicons{
+    background-color: rgb(54, 54, 54);
+}
+.flinks{
+    background-color: rgb(54, 54, 54);
+}
+.footername{
+    background-color: rgb(54, 54, 54);
+}
+.ficon{
+    background-color: rgb(54, 54, 54);
+}
+/*  */
+.card{
+    display: flex;
+}
+
+
+/* responsive */
+@media(min-width:769px){
+    .navbar{
+
+    }
+
+}
